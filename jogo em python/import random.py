@@ -12,6 +12,7 @@ while tentativas < 10:
 
     if palpite == numero:
         print(f"Parabéns! Você acertou o número em {tentativas} tentativas.")
+        break
     elif palpite < numero:
         print("o número é maior. Tente novamente.")
     else:
